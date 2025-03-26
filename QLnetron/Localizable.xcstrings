@@ -1,0 +1,50 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    " " : {
+
+    },
+    "App terminates automatically when this window is closed." : {
+
+    },
+    "Github.com repositery" : {
+
+    },
+    "github.com/Oil3/Quicklook-Netron" : {
+
+    },
+    "If you are updating, remove or replace the older app in the same location." : {
+
+    },
+    "If you are updating, replace/remove the older app." : {
+
+    },
+    "LANGUAGE_TEST_STRING" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "English localization is active (UTI Set 1)"
+          }
+        },
+        "kde" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Makonde localization is active (UTI Set 2)"
+          }
+        }
+      }
+    },
+    "Quicklook Netron version 1.0" : {
+
+    },
+    "Quicklook Netron's registered! Click the icon or press space to check sample neural network." : {
+
+    },
+    "You can quit the app now. It also terminates automatically when this window is closed." : {
+
+    }
+  },
+  "version" : "1.0"
+}
