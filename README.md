@@ -17,7 +17,7 @@ Quick Look visualizer for neural networks/machine learning models based on Lutz 
 
 > Lightweight - 10 times less than electron-based 
 
-> > No web-server, no python, nothing external - made in Swift for macOS   
+ No web-server, no python, nothing external - made in Swift for macOS   
 
 
 
