@@ -15,7 +15,7 @@ Quick Look visualizer for neural networks/machine learning models based on Lutz 
 
 > Familiar interface - it's Netron, adapted for Quick Look.  
 
-> Lightweight - 45megs, 10 times less than electron-based. 
+> Lightweight - 45MB, 10 times less than electron-based. 
 
 > No web-server, no python, nothing external - made in Swift for macOS.   
 
