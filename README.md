@@ -3,7 +3,7 @@
   <h1 align="center"> Quicklook-Netron </h1>
 </p>
 
-Quick Look visualizer for neural networks/machine learning models based on Lutz Roeder's Netron
+Quick Look visualizer for neural networks/machine learning models based on Lutz Roeder's Netron.
 
 
  
@@ -11,13 +11,13 @@ Quick Look visualizer for neural networks/machine learning models based on Lutz 
 
 > Supports most neural network and machine learning models, configured for twenty frameworks such as  `CoreML`, `torch`, `keras`, `tensorflow`, `onnx` and more [^2].
 
-> Does everything the official Netron[^1] does - except telemetry, disabled here     
+> Does everything the official Netron[^1] does - except telemetry, disabled here.     
 
-> Familiar interface - it's Netron, adapted for Quick Look  
+> Familiar interface - it's Netron, adapted for Quick Look.  
 
-> Lightweight - 10 times less than electron-based 
+> Lightweight - 10 times less than electron-based. 
 
-> No web-server, no python, nothing external - made in Swift for macOS   
+> No web-server, no python, nothing external - made in Swift for macOS.   
 
 
 
@@ -47,7 +47,7 @@ Works on all macOSX versions (Ventura to latest Sequoia) and all Silicon or Inte
 [Direct download (1.0 Universal Binary)](https://github.com/Oil3/Quicklook-Netron/releases/download/quicklook-netron-1.0/QLnetron.1.0.-.Universal.Binary.zip)
 
 ## Tip
-> `opt + space` quicklooks in full-screen
+> `opt + space` quicklooks in full-screen.
 
 ##
 
