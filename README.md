@@ -51,7 +51,7 @@ Works on all macOSX versions (Ventura to latest Sequoia) and all Silicon or Inte
 
 ##
 
-Once the app is launched, the WebM Quicklook extension appears in  `Extensions` from `General` in macOS' `System Settings`, and disapears if app is deleted.  
+Once the app is launched, the Quicklook Netron extension appears in  `Extensions` from `General` in macOS' `System Settings`, and disapears if app is deleted.  
   
 Notarized and gatekeeper-approved.  
 
