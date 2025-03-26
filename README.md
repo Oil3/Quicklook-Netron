@@ -17,7 +17,7 @@ Quick Look visualizer for neural networks/machine learning models based on Lutz 
 
 > Lightweight - 10 times less than electron-based 
 
- No web-server, no python, nothing external - made in Swift for macOS   
+> No web-server, no python, nothing external - made in Swift for macOS   
 
 
 
@@ -42,7 +42,7 @@ Quick Look visualizer for neural networks/machine learning models based on Lutz 
 >Replace the older app with the newer app.  MacOS looks for the extension in the app: if app is moved, a relaunch might be needed. 
 
 
-Works on all macOSX versions (Monterey to latest Sequoia) and all Silicon or Intel mac architectures.  
+Works on all macOSX versions (Ventura to latest Sequoia) and all Silicon or Intel mac architectures.  
 
 [[Direct download (1.0 Universal Binary)](https://github.com/Oil3/Quicklook-Netron/releases/download/quicklook-netron-1.0/QLnetron.1.0.-.Universal.Binary.zip)
 
