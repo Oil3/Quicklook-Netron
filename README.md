@@ -44,7 +44,7 @@ Quick Look visualizer for neural networks/machine learning models based on Lutz 
 
 Works on all macOSX versions (Monterey to latest Sequoia) and all Silicon or Intel mac architectures.  
 
-[Direct download (1.0 Universal Binary)
+[[Direct download (1.0 Universal Binary)](https://github.com/Oil3/Quicklook-Netron/releases/download/quicklook-netron-1.0/QLnetron.1.0.-.Universal.Binary.zip)
 
 ## Tip
 > `opt + space` quicklooks in full-screen
