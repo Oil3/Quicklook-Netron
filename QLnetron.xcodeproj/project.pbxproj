@@ -1,0 +1,642 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7DDD54552D903CBA00322565 /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DDD54542D903CBA00322565 /* Quartz.framework */; };
+		7DDD54622D903CBA00322565 /* Quicklook Netron.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 7DDD54522D903CBA00322565 /* Quicklook Netron.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7DDD54602D903CBA00322565 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7D6194992D8D4E9600195850 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7DDD54512D903CBA00322565;
+			remoteInfo = "Quicklook Netron";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7DDD54632D903CBA00322565 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				7DDD54622D903CBA00322565 /* Quicklook Netron.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		7D6194A12D8D4E9600195850 /* QLnetron.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QLnetron.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DDD54522D903CBA00322565 /* Quicklook Netron.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Quicklook Netron.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DDD54542D903CBA00322565 /* Quartz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quartz.framework; path = System/Library/Frameworks/Quartz.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		7DDD54662D903CBA00322565 /* Exceptions for "Quicklook Netron" folder in "Quicklook Netron" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+				"PreviewViewController 3.swift",
+			);
+			target = 7DDD54512D903CBA00322565 /* Quicklook Netron */;
+		};
+		7DDD55A82D9077DC00322565 /* Exceptions for "QLetron" folder in "QLnetron" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				1QLetronApp.swift,
+				Info.plist,
+			);
+			target = 7D6194A02D8D4E9600195850 /* QLnetron */;
+		};
+		7DDD564B2D91198500322565 /* Exceptions for "Quicklook Netron" folder in "QLnetron" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"Resources/acuity-metadata.json",
+				Resources/acuity.js,
+				"Resources/armnn-metadata.json",
+				"Resources/armnn-schema.js",
+				Resources/armnn.js,
+				Resources/barracuda.js,
+				Resources/base.js,
+				"Resources/bigdl-metadata.json",
+				"Resources/bigdl-proto.js",
+				Resources/bigdl.js,
+				Resources/browser.js,
+				"Resources/caffe-metadata.json",
+				"Resources/caffe-proto.js",
+				Resources/caffe.js,
+				"Resources/caffe2-metadata.json",
+				"Resources/caffe2-proto.js",
+				Resources/caffe2.js,
+				Resources/catboost.js,
+				"Resources/circle-metadata.json",
+				"Resources/circle-schema.js",
+				Resources/circle.js,
+				"Resources/cntk-metadata.json",
+				"Resources/cntk-proto.js",
+				Resources/cntk.js,
+				"Resources/coreml-metadata.json",
+				"Resources/coreml-proto.js",
+				Resources/coreml.js,
+				Resources/dagre.js,
+				"Resources/darknet-metadata.json",
+				Resources/darknet.js,
+				"Resources/dl4j-metadata.json",
+				Resources/dl4j.js,
+				"Resources/dlc-metadata.json",
+				"Resources/dlc-schema.js",
+				Resources/dlc.js,
+				"Resources/dnn-metadata.json",
+				"Resources/dnn-proto.js",
+				Resources/dnn.js,
+				Resources/dot.js,
+				"Resources/espresso-metadata.json",
+				Resources/espresso.js,
+				"Resources/executorch-schema.js",
+				Resources/executorch.js,
+				Resources/favicon.ico,
+				Resources/flatbuffers.js,
+				Resources/flax.js,
+				Resources/flexbuffers.js,
+				"Resources/flux-metadata.json",
+				Resources/flux.js,
+				Resources/gguf.js,
+				"Resources/grapher 2.css",
+				Resources/grapher.css,
+				Resources/grapher.js,
+				"Resources/hailo-metadata.json",
+				Resources/hailo.js,
+				Resources/hdf5.js,
+				Resources/hickle.js,
+				Resources/icon.png,
+				Resources/imgdnn.js,
+				Resources/index.html,
+				Resources/index.js,
+				Resources/json.js,
+				"Resources/kann-metadata.json",
+				"Resources/kann-schema.js",
+				Resources/kann.js,
+				"Resources/keras-metadata.json",
+				"Resources/keras-proto.js",
+				Resources/keras.js,
+				Resources/kmodel.js,
+				"Resources/lasagne-metadata.json",
+				Resources/lasagne.js,
+				Resources/lightgbm.js,
+				Resources/mediapipe.js,
+				"Resources/megengine-metadata.json",
+				"Resources/megengine-schema.js",
+				Resources/megengine.js,
+				Resources/message.js,
+				Resources/mlir.js,
+				"Resources/mlnet-metadata.json",
+				Resources/mlnet.js,
+				Resources/tflite.js,
+				"Resources/tnn-metadata.json",
+				Resources/tnn.js,
+				"Resources/torch-metadata.json",
+				Resources/torch.js,
+				Resources/tvm.js,
+				"Resources/uff-metadata.json",
+				"Resources/uff-proto.js",
+				Resources/uff.js,
+				Resources/view.js,
+				Resources/weka.js,
+				Resources/worker.js,
+				Resources/xml.js,
+				"Resources/xmodel-proto.js",
+				Resources/xmodel.js,
+				Resources/zip.js,
+			);
+			target = 7D6194A02D8D4E9600195850 /* QLnetron */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		7D6194A32D8D4E9600195850 /* QLetron */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				7DDD55A82D9077DC00322565 /* Exceptions for "QLetron" folder in "QLnetron" target */,
+			);
+			path = QLetron;
+			sourceTree = "<group>";
+		};
+		7DDD54562D903CBA00322565 /* Quicklook Netron */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				7DDD564B2D91198500322565 /* Exceptions for "Quicklook Netron" folder in "QLnetron" target */,
+				7DDD54662D903CBA00322565 /* Exceptions for "Quicklook Netron" folder in "Quicklook Netron" target */,
+			);
+			path = "Quicklook Netron";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7D61949E2D8D4E9600195850 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DDD544F2D903CBA00322565 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DDD54552D903CBA00322565 /* Quartz.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7D6194982D8D4E9600195850 = {
+			isa = PBXGroup;
+			children = (
+				7D6194A32D8D4E9600195850 /* QLetron */,
+				7DDD54562D903CBA00322565 /* Quicklook Netron */,
+				7DDD54532D903CBA00322565 /* Frameworks */,
+				7D6194A22D8D4E9600195850 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7D6194A22D8D4E9600195850 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7D6194A12D8D4E9600195850 /* QLnetron.app */,
+				7DDD54522D903CBA00322565 /* Quicklook Netron.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DDD54532D903CBA00322565 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7DDD54542D903CBA00322565 /* Quartz.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7D6194A02D8D4E9600195850 /* QLnetron */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D6194B02D8D4E9700195850 /* Build configuration list for PBXNativeTarget "QLnetron" */;
+			buildPhases = (
+				7D61949D2D8D4E9600195850 /* Sources */,
+				7D61949E2D8D4E9600195850 /* Frameworks */,
+				7D61949F2D8D4E9600195850 /* Resources */,
+				7DDD54632D903CBA00322565 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7DDD54612D903CBA00322565 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				7D6194A32D8D4E9600195850 /* QLetron */,
+			);
+			name = QLnetron;
+			packageProductDependencies = (
+			);
+			productName = QLetron;
+			productReference = 7D6194A12D8D4E9600195850 /* QLnetron.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7DDD54512D903CBA00322565 /* Quicklook Netron */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7DDD54672D903CBA00322565 /* Build configuration list for PBXNativeTarget "Quicklook Netron" */;
+			buildPhases = (
+				7DDD544E2D903CBA00322565 /* Sources */,
+				7DDD544F2D903CBA00322565 /* Frameworks */,
+				7DDD54502D903CBA00322565 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				7DDD54562D903CBA00322565 /* Quicklook Netron */,
+			);
+			name = "Quicklook Netron";
+			packageProductDependencies = (
+			);
+			productName = "Quicklook Netron";
+			productReference = 7DDD54522D903CBA00322565 /* Quicklook Netron.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7D6194992D8D4E9600195850 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					7D6194A02D8D4E9600195850 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					7DDD54512D903CBA00322565 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+				};
+			};
+			buildConfigurationList = 7D61949C2D8D4E9600195850 /* Build configuration list for PBXProject "QLnetron" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7D6194982D8D4E9600195850;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 7D6194A22D8D4E9600195850 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7D6194A02D8D4E9600195850 /* QLnetron */,
+				7DDD54512D903CBA00322565 /* Quicklook Netron */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7D61949F2D8D4E9600195850 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DDD54502D903CBA00322565 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7D61949D2D8D4E9600195850 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DDD544E2D903CBA00322565 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7DDD54612D903CBA00322565 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7DDD54512D903CBA00322565 /* Quicklook Netron */;
+			targetProxy = 7DDD54602D903CBA00322565 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		7D6194AE2D8D4E9700195850 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7D6194AF2D8D4E9700195850 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		7D6194B12D8D4E9700195850 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = QLetron/QLetron.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.0;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = 46WUYUUA8V;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = QLetron/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.oil3.QLnetron;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = macosx;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				XROS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Debug;
+		};
+		7D6194B22D8D4E9700195850 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = QLetron/QLetron.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.0;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = 46WUYUUA8V;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = QLetron/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.oil3.QLnetron;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = macosx;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				XROS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Release;
+		};
+		7DDD54642D903CBA00322565 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Quicklook Netron/Quicklook_Netron.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.0;
+				DEVELOPMENT_TEAM = 46WUYUUA8V;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Quicklook Netron/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Quicklook Netron";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.oil3.QLnetron.Quicklook-Netron";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		7DDD54652D903CBA00322565 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Quicklook Netron/Quicklook_Netron.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.0;
+				DEVELOPMENT_TEAM = 46WUYUUA8V;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Quicklook Netron/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Quicklook Netron";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.oil3.QLnetron.Quicklook-Netron";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7D61949C2D8D4E9600195850 /* Build configuration list for PBXProject "QLnetron" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D6194AE2D8D4E9700195850 /* Debug */,
+				7D6194AF2D8D4E9700195850 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D6194B02D8D4E9700195850 /* Build configuration list for PBXNativeTarget "QLnetron" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D6194B12D8D4E9700195850 /* Debug */,
+				7D6194B22D8D4E9700195850 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7DDD54672D903CBA00322565 /* Build configuration list for PBXNativeTarget "Quicklook Netron" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DDD54642D903CBA00322565 /* Debug */,
+				7DDD54652D903CBA00322565 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7D6194992D8D4E9600195850 /* Project object */;
+}
