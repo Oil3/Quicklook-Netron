@@ -56,7 +56,12 @@ Once the app is launched, the Quicklook Netron extension appears in  `Extensions
 Notarized and gatekeeper-approved.  
 
 ##  
-Light and fast.    
+
+[Screen Recording 2025-03-26 at 1.05.20 AM.webm](https://github.com/user-attachments/assets/db601f2b-671a-446e-9923-de99696e59df)
+
+Does need some colors, but light and fast. 
+
+  
 
 
 
