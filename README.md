@@ -66,11 +66,18 @@ Does need some colors, but light and fast.
 
 
 ## 
-[^1]: Quicklook-Netron is not affiliated with, but uses code from [Lutz Roeder's Netron](https://github.com/lutzroeder/netron).   
+[^1]: Quicklook-Netron is not affiliated with, but uses code from [Lutz Roeder's Netron](https://github.com/lutzroeder/netron).[^3]    
 
-  [^2]: "onnx" "pb" "tflite" "mlmodel" "mlpackage" "pt" "pth" "h5" "keras" "safetensors" "weights" "bin" "torch" "pkl" "npy" "params" "caffemodel" "prototxt" "pbtxt" "dlc"  
+  [^2]: `"onnx"` ` "pb" ` ` "tflite" ` ` "mlmodel"` ` "mlpackage"` ` "pt" ` `"pth" ` `"h5" ` `"keras" ` `"safetensors" ` `"weights" ` `"bin"` ` "torch" ` `"pkl" ` `"npy"` ` "params" ` `"caffemodel" ` `"prototxt"` ` "pbtxt" ` `"dlc" `   
+
+[^3]: Besides the Swift, we just modified the `base, browser, grapher, and index` html/js/css files.   
 
  
 ##  
 Made in Swift.  
 _a mac is a mac and it needs to stay comfortable, but it's still your mac._
+<br>
+
+<sub>Mac and macOS are trademarks of Apple Inc., registered in the U.S. and other countries and regions.
+
+
